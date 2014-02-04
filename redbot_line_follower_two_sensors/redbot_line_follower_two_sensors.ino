@@ -8,6 +8,7 @@
  * You should set the lineContrast depending on the perceived contrast
  * between the line and the surface.
  * 
+ * Tip: place the sensors as close to the surface as possible
  ************************************************************************/
 
 #include <RedBot.h>
