@@ -12,7 +12,6 @@
  ************************************************************************/
 
 #include <RedBot.h>
-#include <SoftwareSerial.h>
 
 RedBotMotor motor;
 
