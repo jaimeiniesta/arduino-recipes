@@ -10,16 +10,16 @@
 
 // Declare the motor and the sensors
 RedBotMotor  motor;
-RedBotSensor leftSensor  = RedBotSensor(0);
+RedBotSensor leftSensor  = RedBotSensor(6);
 RedBotSensor rightSensor = RedBotSensor(5);
 
 // Define the speeds. Due to variations in the performance of motors, we'll use slightly
 // different speeds for the left and right motors so that it moves straight.
-const int leftForwardSpeed  = 180;
-const int rightForwardSpeed = 200;
+const int leftForwardSpeed  = 200;
+const int rightForwardSpeed = 220;
 
 // It will only go backwards as a escape sequence, so we don't care about different left and right speeds.
-const int backwardsSpeed    = 180;
+const int backwardsSpeed    = 200;
 
 // This defines the proximity value (the higher, the nearer an object is detected) where we determine
 // that we've come too close and it's time to go backwards. Calibrate this according to your sensors.
